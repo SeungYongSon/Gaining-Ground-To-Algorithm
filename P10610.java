@@ -16,12 +16,12 @@ class P10610 {
 		sc.close();
 	}
 	
-	private void reverse(char[] A) {
+	private void reverse(char[] c) {
 		int idx = 0;
-		for (int i = A.length - 1; i >= A.length / 2; i--) {
-			char temp = A[i];
-			A[i] = A[idx];
-			A[idx] = temp;
+		for (int i = c.length - 1; i >= c.length / 2; i--) {
+			char temp = c[i];
+			c[i] = c[idx];
+			c[idx] = temp;
 			idx++;
 		}
 	}
