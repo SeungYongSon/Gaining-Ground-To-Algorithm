@@ -4,7 +4,6 @@ import java.util.Scanner;
  * https://www.acmicpc.net/problem/2875
  */
 
-
 class P2875 {
 	private Scanner s = new Scanner(System.in);
 	private int N;
